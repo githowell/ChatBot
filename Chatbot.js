@@ -21,7 +21,7 @@ function chat()  {
     }
 
     const subject2 = prompt ("What can you say about me? I will count the characters (please try to limit in 150 characters)");
-    alert ("You have written " + subject2.length +" characters" +"you only have " + (150-subject2.length) + " remaining characters");
+    alert ("You have written " + subject2.length +" characters" +" you only have " + (150-subject2.length) + " remaining characters");
 }
 //End bracket to close the function
 
