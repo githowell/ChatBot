@@ -1,20 +1,24 @@
 // function that runs when button is clicked
-function chat() {
+function chat()  {
     alert ("Magandang Buhay!")
+    const minAge = 18;
+    const maxAge = 65;
+  
 
     const myName = prompt ("What is your name?")
-    alert ("Hello, "+ myName + "!")
+    alert ("Hello, "+ myName + "I have personal question!")
 
-    const subject = prompt ("Are you single?");
-    if (subject == "Yes") {
-        alert ("Being a single is awesome!");
+    const subject = prompt ("How old are you?");
+    if (subject < minAge) {
+        alert ("You are too young for this range.");
     }
-    else if (subject == "No") {
-        alert ("Kilig!");
-    }
+    else if (subject <= maxAge) {
+        alert ("Your age is within the specified range.");
+    } 
     else {
-        alert("Cool!");
+        alert ("You are too old for this range.");
     }
-} // end bracket to close the function
+}
+//End bracket to close the function
 
 document.getElementById("myBtn").onclick = chat;
