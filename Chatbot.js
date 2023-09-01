@@ -7,7 +7,7 @@ function chat()  {
   
 
     const myName = prompt ("What is your name?")
-    alert ("Hello, "+ myName + "I have personal question!")
+    alert ("Hello, "+ myName + " I have personal question!")
 
     const subject = prompt ("How old are you?");
     if (subject < minAge) {
