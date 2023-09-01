@@ -10,10 +10,10 @@ function chat()  {
 
     const subject = prompt ("How old are you?");
     if (subject < minAge) {
-        alert ("You are too young, but this is the best time to grind");
+        alert ("You are too young, but this is the best time to grind.");
     }
     else if (subject <= maxAge) {
-        alert ("You're not too old hope you enjoy your younger days.");
+        alert ("You're not too old! Hope you enjoy your younger days!");
     } 
     else {
         alert ("Wow! Congratulations!, You're living the best of your life!");
